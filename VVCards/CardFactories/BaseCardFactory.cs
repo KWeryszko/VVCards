@@ -8,6 +8,10 @@ namespace VVCards.CardFactories
 {
     internal abstract class BaseCardFactory
     {
-        abstract BaseCard CreateCard(int val)
+        public abstract Cards.BaseCard CreateCard(int suit, int value);
+        public abstract Cards.BaseCard[] CreateFullDeck();
+        public abstract BaseCardFactory getInstance();
+        protected BaseCardFactory _instance;
+        
     }
 }

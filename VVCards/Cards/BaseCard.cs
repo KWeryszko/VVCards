@@ -8,6 +8,7 @@ namespace VVCards.Cards
 {
     internal abstract class BaseCard
     {
-
+        public abstract override string ToString();
+        protected int iSuit, iValue;
     }
 }
