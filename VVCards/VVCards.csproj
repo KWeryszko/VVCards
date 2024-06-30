@@ -1,9 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Suits\FrenchSuits\Sprites\" />
+    <Folder Include="Suits\GermanSuits\Sprites\" />
+    <Folder Include="Suits\ItalianSuits\Sprites\" />
+    <Folder Include="Values\CommonValuesSprites\" />
+  </ItemGroup>
 
 </Project>
